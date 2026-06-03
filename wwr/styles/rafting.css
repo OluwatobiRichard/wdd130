@@ -116,7 +116,7 @@ footer {
     text-align: center;
     opacity: 0.7;
     background-color: var(--secondary-color);
-    color: #fff;
+    color: #000000;
     /* white text - make sure there is enough control with the background-color */
 }
 
