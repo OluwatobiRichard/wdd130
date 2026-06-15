@@ -181,3 +181,102 @@ h2 {
     margin-top: 0.5rem;
     font-weight: 700;
 }
+
+/*About Page*/
+
+.campany-info {
+    height: fit-content;
+    text-align: center;
+    color: #000000;
+}
+
+.map-info {
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.map {
+    width: 60%;
+    height: fit-content;
+}
+
+form {
+    width: 40%;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 /0.1);
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: .4rem;
+    margin: 0.5rem;
+    border: 1px solid rgb(0 0 0 /0.2);
+    padding: 0.6rem;
+}
+
+fieldset h4 {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.30em;
+}
+
+label,
+input,
+button,
+textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+input [type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.column1 {
+    grid-template-columns: 1.5fr 2.5fr;
+}
